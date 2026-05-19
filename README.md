@@ -35,6 +35,7 @@ docker-flask-demo/
 ├── static/
 │   ├── style.css           # CSS 样式
 │   └── script.js           # 前端 JS 脚本
+│   └──images
 ├── .dockerignore
 ├── .gitignore
 └── README.md
@@ -77,8 +78,8 @@ GET /api/products
 JSON
 
 [
-    {"id": 1, "name": "智能手表", "price": 399, "image": "https://via.placeholder.com/150"},
-    {"id": 2, "name": "蓝牙耳机", "price": 299, "image": "https://via.placeholder.com/150"},
+    {"id": 1, "name": "智能手表", "price": 399, "image": "/static/images/watch.png"},
+    {"id": 2, "name": "蓝牙耳机", "price": 299, "image": "/static/images/earphone.png"},
     ...
 ]
 
